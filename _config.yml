@@ -1,0 +1,47 @@
+# Site settings
+title: Syed Ahmed - Software Engineer
+description: "A blog about used tools & technology ...."
+baseurl: "" # the subpath of your site
+url: "http://imsyedahmed.github.io/blog"
+
+# User settings
+username: syed ahmed
+user_title: Syed Ahmed - Software Engineer
+email: geeklycan@gmail.com
+twitter_username: iamsyedahmed
+github_username:  imsyedahmed
+gplus_username:  101640094112460291550
+#disqus_username: loremipsum
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  - title: home
+    url: /
+  - title: my posts
+    url: /posts
+  - title: series
+    url: /series
+  - title: tags
+    url: /tags
+  - title: about me
+    url: /about
+# projects in header index
+projects:
+  - name: cicartoptions
+    url: https://github.com/imsyedahmed/cicartoptions
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
